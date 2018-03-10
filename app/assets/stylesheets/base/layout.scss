@@ -6,28 +6,36 @@ html {
 }
 
 body {
-	// ...
+	width: 80%;
+	margin: 0 auto;
+	font-family: $serif;
+	font-size: 12px;
 }
 
 button {
-	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
-	// padding:
-	// border-radius:
-	// transition:
-	// font-family:
-	// text-transform:
-	// font-size:
-	// text-align:
+	background-color: #6288A5;
+  border: 1px solid #4D7B9F;
+  border-radius: 3px;
+  color: #fff !important;
+  display: inline-block;
+  font-size: 0.1em;
+  font-family: "Times New Roman", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  padding: 5px 8px 4px;
+  text-transform: none;
+  text-decoration: none;
 }
 
 button:hover {
-	// background-color:
-	// border-color:
+	background-color: #326891;
+	border: 1px solid #265E8B;
+	text-decoration: none;
 }
 
+.hidden {
+	display: none;
+}
 /*
 	Header Rules
 */
